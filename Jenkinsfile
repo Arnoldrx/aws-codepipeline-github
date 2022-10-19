@@ -5,7 +5,7 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 git url: 'https://github.com/arnoldrx/aws-codepipeline-github.git', branch: 'main',
-                credentialsId: 'github_token'
+                credentialsId: '26f6cf77-07a8-46b7-b275-c25cc3ea44d9'
             }
         }
     }
