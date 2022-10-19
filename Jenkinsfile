@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git url: 'https://github.com/Arnoldrx/aws-codepipeline-github.git', branch: 'main',
+                git url: 'https://github.com/arnoldrx/aws-codepipeline-github.git', branch: 'main',
                 credentialsId: 'github_token'
             }
         }
